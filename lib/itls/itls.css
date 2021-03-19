@@ -1,0 +1,37 @@
+.itls_con{
+    position: fixed;
+    bottom:5%;
+    right: 5%;
+    min-width: 88px;
+    height:48px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    will-change: box-shadow;
+    zoom: 1;
+    -webkit-user-drag: none;
+}
+.itls_btn{
+    display: inline-block;
+    border-radius: 2px;
+    font-size: large;
+    font-weight:500;
+    margin-right: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1);
+}
+.itls_btn:hover{
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.itls_btn_activated{
+    -webkit-box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
