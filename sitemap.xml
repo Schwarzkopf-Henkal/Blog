@@ -2,21 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://commune.ml/post/about/</loc>
-    <lastmod>2021-03-19T00:16:52+08:00</lastmod>
+    <loc>https://commune.ml/</loc>
+    <lastmod>2021-03-19T12:44:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://commune.ml/</loc>
-    <lastmod>2021-03-19T00:16:52+08:00</lastmod>
+    <loc>https://commune.ml/post/nep-in-china/</loc>
+    <lastmod>2021-03-19T12:44:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://commune.ml/post/</loc>
+    <lastmod>2021-03-19T12:44:56+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://commune.ml/post/about/</loc>
     <lastmod>2021-03-19T00:16:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
